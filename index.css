@@ -3,5 +3,9 @@ body {
 }
 
 h1 {
-  color: black;
+  /* all 3 text styles added */
+  color: rgb(36, 41, 41);
+  text-align: center;
+  text-decoration: underline;
+
 }
