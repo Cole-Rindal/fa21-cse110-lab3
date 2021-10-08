@@ -1,5 +1,6 @@
 body {
   background-color: lightblue;
+  
 }
 
 h1 {
@@ -7,5 +8,6 @@ h1 {
   color: rgb(36, 41, 41);
   text-align: center;
   text-decoration: underline;
-
+  /*font change for title*/
+  font-family: 'Bebas Neue', cursive;
 }
