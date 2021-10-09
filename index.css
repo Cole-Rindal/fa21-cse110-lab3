@@ -41,9 +41,19 @@ h1 {
   color: black;
 }
 
+.Important Video{
+  /* Position */
+  position: relative;
+  top: 80px;
+  
+}
+
 /* Attribute Selector */
 div[type]{
   color: green;
+  position: absolute;
+  top: 80px;
+  right: 90px;
 }
 
 /* Selector List */
@@ -54,4 +64,23 @@ h2, h3 {
 /* Pseudo-class Selector */
 button:hover {
   color: red;
+}
+
+/* Units */
+.sound{
+
+  margin-top: 2.5cm;
+  margin-bottom: 25mm;
+  margin-right: 1in;
+  margin-left: 8Q;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 10px;
+}
+
+/* Box Model */
+.pics{
+  margin: 25em 50ex 75ch 50rem;
 }
