@@ -3,6 +3,7 @@ body {
   
 }
 
+/* Element Selector */
 h1 {
   /* all 3 text styles added */
   color: rgb(36, 41, 41);
@@ -10,4 +11,47 @@ h1 {
   text-decoration: underline;
   /*font change for title*/
   font-family: 'Bebas Neue', cursive;
+}
+
+/* Class Selector */
+.header {
+  width: 200px;
+  border: 10px solid green;
+  padding: 30px;
+  margin: 20px;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ID Selector */
+#attendance {
+  width: 200px;
+  border: 10px;
+  padding: 30px;
+  margin: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Universal Selector */
+* {
+  color: black;
+}
+
+/* Attribute Selector */
+div[type]{
+  color: green;
+}
+
+/* Selector List */
+h2, h3 { 
+  color: blue;
+}
+
+/* Pseudo-class Selector */
+button:hover {
+  color: red;
 }
